@@ -1,0 +1,28 @@
+name: SentinelMC
+version: '1.0.0'
+main: dev.marcialkt.sentinelmc.SentinelMC
+api-version: '1.20'
+authors: [ MarcialKT ]
+description: >
+  SentinelMC — A fully GUI-driven moderation suite for Paper 1.20-1.21.
+  Vanish, freeze, shadow jail, bans, staff warns, rank demotion (LuckPerms),
+  alt detection, social spy, ghost mode, god mode, audit log & more.
+  One command: /sentinel.
+website: https://modrinth.com/plugin/sentinelmc
+
+softdepend: [ LuckPerms ]
+
+permissions:
+  sentinel.use:
+    description: Full access to the SentinelMC moderation GUI (/sentinel)
+    default: op
+  sentinel.owner:
+    description: Access to the Staff Warn system and LuckPerms rank demotion
+    default: false
+
+commands:
+  sentinel:
+    description: Open the SentinelMC moderation hub
+    usage: /sentinel
+    permission: sentinel.use
+    aliases: [ sen, mod, staff ]
