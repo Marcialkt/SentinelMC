@@ -1,7 +1,7 @@
 # SentinelMC 🛡️
 ### The cleanest all-in-one moderation suite for Paper servers.
 
-[![Modrinth](https://img.shields.io/badge/Modrinth-SentinelMC-00AF5C?style=flat-square&logo=modrinth)](https://modrinth.com/plugin/sentinelmc)
+[![Modrinth](https://img.shields.io/badge/Modrinth-SentinelMC-00AF5C?style=flat-square&logo=modrinth)](https://modrinth.com/plugin/sentinelmcpa)
 [![Paper](https://img.shields.io/badge/Paper-1.20--1.21-F7CF0D?style=flat-square)](https://papermc.io)
 [![Java](https://img.shields.io/badge/Java-17+-blue?style=flat-square)](https://adoptium.net)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
